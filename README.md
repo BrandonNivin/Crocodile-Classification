@@ -100,6 +100,10 @@ Steps
 
 - Clone the repo
 - Install dependencies from Environment & Dependencies section
+- Remove Google Colab file upload code:
+  ```text
+  uploaded = files.upload()
+  ```
 - Update the dataset loading code with
   ```text
   df = pd.read_csv('data/crocodile_dataset.csv')
