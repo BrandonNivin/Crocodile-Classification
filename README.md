@@ -1,16 +1,16 @@
-# 🐊 Crocodile Species Classification (Machine Learning Project)
+# 🐊 Crocodile Species Classification (AI Project)
 
 ![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
 ![Jupyter](https://img.shields.io/badge/Notebook-Jupyter-orange.svg)
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen.svg)
 
-This repository contains my group's end-to-end machine learning pipeline for **classifying crocodile species** using tabular biological and morphological data. The project walks through data cleaning, feature selection, model training, and evaluation, and includes a recorded presentation explaining the work.
+This repository contains my group's end-to-end machine learning pipeline for classifying crocodile species using tabular biological and morphological data. The project walks through data cleaning, feature selection, model training, and evaluation, and includes a recorded presentation explaining the work.
 
 ---
 
 ## Project Overview
 
-The goal of this project is to **predict crocodile common name** based on a set of measurable features (such as length, weight, and environmental attributes). We compare multiple supervised learning models and analyze their performance using standard classification metrics.
+The goal of this project is to predict crocodile common name based on a set of measurable features (such as length, weight, and environmental attributes). We compare multiple supervised learning models and analyze their performance using standard classification metrics.
 
 The notebook walks through:
 
@@ -20,18 +20,18 @@ The notebook walks through:
 - Comparing model performance  
 - Reflecting on what worked well and what did not  
 
-This project was originally developed in **Google Colab**, and the code is kept exactly as written there. If you run it outside Colab, you may need to update how the **dataset is loaded** (see below).
+This project was originally developed in Google Colab, and the code is kept exactly as written there. If you run it outside Colab, you may need to update how the dataset is loaded (see below).
 
 ---
 
 ## Dataset
 
-- Format: **CSV (.csv)**
-- Contents: Tabular data with features describing individual crocodiles and a **target label** indicating species.
+- Format: CSV (.csv)
+- Contents: Tabular data with features describing individual crocodiles and a target label indicating species.
 - Location in this repo:
   - `data/crocodile_dataset.csv`
 
-> If you run this notebook outside of Colab, you might need to adjust the **file path** used in `pd.read_csv(...)` to match where the dataset is stored on your machine.
+> If you run this notebook outside of Colab, you might need to adjust the file path used in `pd.read_csv(...)` to match where the dataset is stored on your machine.
 
 ---
 
