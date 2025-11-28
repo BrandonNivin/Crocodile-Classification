@@ -88,8 +88,10 @@ pip install pandas numpy matplotlib scikit-learn xgboost
 
 Steps
 
+- Download the .ipynb file and .csv dataset file
 - Open the .ipynb file in Google Colab
-- Upload the dataset or mount Google Drive where you have already saved the dataset
+- Save the dataset to Google Drive (Optional, check next step)
+- Upload the dataset from your local files or mount Google Drive where you have already saved the dataset
 - Make sure the dataset path matches file location
 - Run all cells in the notebook
 
