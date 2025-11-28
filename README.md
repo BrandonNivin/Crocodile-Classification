@@ -76,7 +76,7 @@ This project uses the following major Python libraries
 - scikit-learn
 - xgboost
 
-Install them with:
+If running locally (VS Code/Jupyter) install them with:
 
 ```text
 pip install pandas numpy matplotlib scikit-learn xgboost
