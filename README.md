@@ -50,7 +50,6 @@ Each model is evaluated using:
 - Precision  
 - Recall  
 - F1-score  
-- Confusion matrices and visual comparisons (where applicable)
 
 ---
 
