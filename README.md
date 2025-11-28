@@ -79,7 +79,9 @@ This project uses the following major Python libraries
 
 Install them with:
 
+```text
 pip install pandas numpy matplotlib scikit-learn xgboost
+```
 
 ---
 
@@ -98,7 +100,10 @@ Steps
 
 - Clone the repo
 - Install dependencies from Environment & Dependencies section
-- Update the dataset loading code with df = pd.read_csv('data/crocodile_dataset.csv')
+- Update the dataset loading code with
+  ```text
+  df = pd.read_csv('data/crocodile_dataset.csv')
+  ```
 - Run the notebook
 
 ---
