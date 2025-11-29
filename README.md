@@ -10,7 +10,7 @@ This repository contains my group's end-to-end machine learning pipeline for cla
 
 ## Project Overview
 
-The goal of this project is to predict crocodile common name based on a set of measurable features (such as length, weight, and environmental attributes). We compare multiple supervised learning models and analyze their performance using standard classification metrics.
+The goal of this project is to predict the crocodiles' common name based on a set of measurable features (such as length, weight, and environmental attributes). We compared multiple supervised learning models and analyzed their performance using standard classification metrics.
 
 The notebook walks through:
 
@@ -20,7 +20,7 @@ The notebook walks through:
 - Comparing model performance  
 - Reflecting on what worked well and what did not  
 
-This project was originally developed in Google Colab, and the code is kept exactly as written there. If you run it outside Colab, you may need to update how the dataset is loaded (see below).
+This project was originally developed in Google Colab, and the code is kept exactly as written there. If you run the code outside of Google Colab, you may need to update how the dataset is loaded (see below).
 
 ---
 
@@ -68,13 +68,13 @@ Each model is evaluated using:
 
 ## Environment & Dependencies
 
-This project uses the following major Python libraries
+This project uses the following major Python libraries:
 
 - pandas
-- numpy
-- matplotlib
+- NumPy
+- Matplotlib
 - scikit-learn
-- xgboost
+- XGBoost
 
 If running locally (VS Code/Jupyter) install them with:
 
@@ -86,7 +86,7 @@ pip install pandas numpy matplotlib scikit-learn xgboost
 
 ## Running in Google Colab
 
-Steps
+Steps:
 
 - Download the .ipynb file and .csv dataset file
 - Open the .ipynb file in Google Colab
@@ -99,13 +99,13 @@ Steps
 
 ## Running Locally (VS Code / Jupyter)
 
-- Clone the repo
+- Clone the repository
 - Install dependencies from Environment & Dependencies section
 - Remove Google Colab file upload code:
   ```text
   uploaded = files.upload()
   ```
-- Update the dataset loading code with
+- Update the dataset loading code with:
   ```text
   df = pd.read_csv('data/crocodile_dataset.csv')
   ```
